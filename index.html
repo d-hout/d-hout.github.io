@@ -25,21 +25,6 @@
     --sans: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
     --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --paper: #16181A;
-      --paper-alt: #1D2020;
-      --card: #1A1D1D;
-      --ink: #ECEEE9;
-      --ink-soft: #A6ACA3;
-      --ink-faint: #6E746C;
-      --line: #2C302C;
-      --accent: #56BFA3;
-      --accent-ink: #08130F;
-      --highlight: #E7A94D;
-      --highlight-ink: #1C1200;
-    }
-  }
   :root[data-theme="dark"]{
     --paper: #16181A;
     --paper-alt: #1D2020;
@@ -443,9 +428,9 @@
     gap:8px;
   }
 </style>
-
 </head>
 <body>
+
 <div class="topbar">
   <a href="#profil">00 Profil</a><a href="#competences">01 Compétences</a><a href="#experience">02 Expérience</a><a href="#projets">03 Projets</a><a href="#formation">04 Formation</a><a href="#contact">05 Contact</a>
   <span class="route">BDX → YUL</span>
@@ -465,7 +450,7 @@
         </div>
         <div class="hero-links">
           <a href="mailto:dhout@ensc.fr">dhout@ensc.fr</a>
-          <a href="tel:+33670677562">06 70 67 75 62</a>
+          <a href="tel:+33684636405">06 84 63 64 05</a>
           <a href="https://www.linkedin.com/in/dounia-hout-ensc-developpement-web-ux-ui" target="_blank" rel="noopener">LinkedIn</a>
           <a href="https://github.com/d-hout" target="_blank" rel="noopener">github.com/d-hout</a>
         </div>
@@ -477,7 +462,7 @@
 
     <section id="profil">
       <div class="frame-label"><span class="num">00</span><span class="title">Profil</span></div>
-      <p class="bio">Étudiante en ingénierie cognitique à l'ENSC (Bordeaux, France) — une formation à la croisée de l'informatique, de l'IA et de l'interaction humain-système. Je combine une pratique UX/UI (conception centrée utilisateur, prototypage, tests) avec du développement full-stack, et je m'intéresse de près aux interfaces intelligentes.</p>
+      <p class="bio">Étudiante en ingénierie cognitique à l'ENSC (Bordeaux, France) — une formation à la croisée de l'informatique, de l'IA et de l'interaction humain-système. Je combine une pratique UX/UI (conception centrée utilisateur, prototypage, tests) avec du développement full-stack, et je m'intéresse de près aux interfaces intelligentes et à l'IA générative (LLM), un domaine que je découvre avec curiosité.</p>
       <p class="bio">Je recherche un stage de fin d'études de 6 mois à Montréal à partir de février 2027, dans le développement web, l'IA appliquée, l'interaction humain-système ou l'UX design.</p>
 
       <div class="meta-row">
@@ -520,7 +505,7 @@
         <div class="skill-group">
           <h3>Programmation &amp; IA</h3>
           <div class="skill-tags">
-            <span class="skill-tag">Python</span><span class="skill-tag">LLM / RAG</span><span class="skill-tag">Prompt engineering</span><span class="skill-tag">C# / POO</span><span class="skill-tag">Entity Framework</span><span class="skill-tag">RStudio</span><span class="skill-tag">Matlab</span><span class="skill-tag">Ontologies (Protégé)</span>
+            <span class="skill-tag">Python</span><span class="skill-tag">C# / POO</span><span class="skill-tag">Entity Framework</span><span class="skill-tag">RStudio</span><span class="skill-tag">Matlab</span><span class="skill-tag">Ontologies (Protégé)</span>
           </div>
         </div>
         <div class="skill-group">
@@ -538,9 +523,11 @@
         <div class="tl-item">
           <div class="tl-date">Mai — Août<br>2026</div>
           <div>
-            <div class="tl-role">Stage — Développement IA</div>
+            <div class="tl-role">Stage — Développement et IA</div>
             <div class="tl-org">Laboratoire de Cyberjustice, Université de Montréal</div>
-            <p class="tl-desc">Prototypes d'IA appliquée au droit : assistants juridiques, agents de médiation, plateformes ODR. Travail sur l'intégration de LLM et de pipelines RAG, avec attention portée à l'IA responsable (garde-fous, validation humaine, explicabilité).</p>
+            <p class="tl-desc">Conception de l'expérience utilisateur d'une fonctionnalité de recherche en langage naturel basée sur un LLM, en collaboration avec un auxiliaire de recherche pour son intégration technique.</p>
+            <p class="tl-desc">Développement de la logique de reconnaissance de termes d'un système de glossaire juridique (priorité au terme le plus long, normalisation des apostrophes).</p>
+            <p class="tl-desc">Un peu de design UX, avec la conduite de tests utilisateurs sur la plateforme.</p>
           </div>
         </div>
         <div class="tl-item">
